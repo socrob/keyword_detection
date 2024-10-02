@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>keyword_detection</name>
+  <version>1.0.0</version>
+  <description>Package that needs to be launched in order to detect the keyword "ok bob"</description>
+
+  <author email="afonso.certo@tecnico.ulisboa.pt">Afonso Certo</author>
+  <maintainer email="afonso.certo@tecnico.ulisboa.pt">Afonso Certo</maintainer>
+
+  <license>GPLv3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>rospy</build_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <exec_depend>rospy</exec_depend>
+
+</package>

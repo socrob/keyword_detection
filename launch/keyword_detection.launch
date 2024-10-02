@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Topics names -->
+    <arg name="output_topic" default="/tiago_speech_recognition/event_in"/>
+    <arg name="audio_topic" default="/microphone_node/audio"/>
+
+    <!-- Launch the node -->
+    <node  pkg="keyword_detection" type="keyword_detection_node" name="keyword_detection" output="screen" required="false" respawn="true">
+        <param name="~output_topic" value="$(arg output_topic)" />
+        <param name="~audio_topic" value="$(arg audio_topic)" />
+    </node>
+</launch>

@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+
+import keyword_detection_ros.keyword_detection_node
+
+if __name__ == '__main__':
+ keyword_detection_ros.keyword_detection_node.main()
